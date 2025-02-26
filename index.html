@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo" id="logo">
+          <img src="logo.png" alt="Logo" />
+        </a>
+        <div id="white-screen"></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#cartItems">Cart</a></li>
+          <li><a href="#restaurants">Restaurants</a></li>
+          <li><a href="restaurants.html">Register</a></li>
+          <li><a href="cart.html">login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <button class="arrow left" onclick="changeBackground(-1)">
+        &#10094;
+      </button>
+      <h1>Welcome to Food Delivery System</h1>
+      <p>Order your favorite meals from the best restaurants!</p>
+      <a href="restaurants.html" class="btn">Order Now</a>
+      <button class="arrow right" onclick="changeBackground(1)">
+        &#10095;
+      </button>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Restaurants</h2>
+      <div id="restaurant-list">
+        <!-- JavaScript will populate this section dynamically -->
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Food Delivery System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

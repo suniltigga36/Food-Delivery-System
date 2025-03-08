@@ -41,6 +41,14 @@ button:hover {
   background: #e66a50;
 }
 
+p{
+  margin-bottom: 20px;
+}
+
 a{
-  color: blue;
+  color:blue;
+}
+
+.register-container .back{
+  text-decoration: none;
 }

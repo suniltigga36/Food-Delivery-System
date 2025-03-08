@@ -30,9 +30,15 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top:10px;
+  margin-bottom: 20px;
 }
 
 button:hover {
   background-color: #218838;
+}
+
+.login-container a{
+  text-decoration: none;
+  color: blue;
 }

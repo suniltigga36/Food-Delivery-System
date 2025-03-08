@@ -91,6 +91,10 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+.btn:hover{
+  background:#d34a00;;
+}
+
 .arrow {
   position: absolute;
   top: 50%;
